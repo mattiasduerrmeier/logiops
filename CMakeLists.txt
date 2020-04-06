@@ -9,3 +9,5 @@ set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_subdirectory(src/logid)
+add_subdirectory(src/liblogiops)
+add_subdirectory(src/logictl)
