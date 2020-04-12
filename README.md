@@ -13,7 +13,7 @@ You may also refer to logid.example.cfg for an example.
 
 ## Building
 
-This project requires a C++14 compiler, cmake, libevdev, libudev, DBus 1.0, GLib 2.0, and libconfig
+This project requires a C++14 compiler, cmake, libevdev, libudev, libdbus-c++, and libconfig
 
 To build this project, run:
 
