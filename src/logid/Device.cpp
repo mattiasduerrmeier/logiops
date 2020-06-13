@@ -46,6 +46,7 @@ bool Device::init()
     catch(HIDPP20::Error &e) { return false; }
 
     name = hidpp_dev->name();
+    pid = hidpp_dev->productID();
     features = getFeatures();
     // Set config, if none is found for this device then use default
     if(global_config->devices.find(name) == global_config->devices.end())
